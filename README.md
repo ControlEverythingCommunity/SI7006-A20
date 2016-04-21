@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: SI7006-A20_I2CS]
 
 https://www.controleverything.com/content/Humidity?sku=SI7006-A20_I2CS
 
-This Sample code can be used with Raspberry pi and Arduino.
+This Sample code can be used with Raspberry pi, Arduino and Beaglebone Black.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -47,4 +47,17 @@ Download (or git pull) the code and double click the file to run the program.
 
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc SI7006_A20.c -o SI7006_A20
+```
+Run the c program.
+```cpp
+$>./SI7006_A20
+```
 #####The code output is the relative humidity and temperature reading in degree celsius and fahrenheit.
