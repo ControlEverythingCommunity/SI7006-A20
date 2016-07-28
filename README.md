@@ -50,6 +50,10 @@ Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
 ## C
 
+Setup your BeagleBone Black according to steps provided at:
+
+https://beagleboard.org/getting-started
+
 Download (or git pull) the code in Beaglebone Black.
 
 Compile the c program.
