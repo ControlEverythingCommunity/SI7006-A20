@@ -64,4 +64,24 @@ Run the c program.
 ```cpp
 $>./SI7006_A20
 ```
-#####The code output is the relative humidity and temperature reading in degree celsius and fahrenheit.
+
+## Onion Omega
+
+Get Started and setting up the Onion Omega according to steps provided at :
+
+https://wiki.onion.io/Get-Started
+
+To install the Python module, run the following commands:
+```cpp
+opkg update
+```
+```cpp
+opkg install python-light pyOnionI2C
+```
+
+Download (or git pull) the code in Onion Omega. Run the program.
+
+```cpp
+$> python SI7006_A20.py
+```
+#####The code output is the relative humidity in %RH and temperature reading in degree celsius and fahrenheit.
