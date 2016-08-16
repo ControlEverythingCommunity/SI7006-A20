@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: SI7006-A20_I2CS]
 
 https://www.controleverything.com/content/Humidity?sku=SI7006-A20_I2CS
 
-This Sample code can be used with Raspberry pi, Arduino and Beaglebone Black.
+This Sample code can be used with Raspberry Pi, Arduino, Beaglebone Black and Onion Omega.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
