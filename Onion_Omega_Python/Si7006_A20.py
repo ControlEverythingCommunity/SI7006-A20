@@ -23,7 +23,7 @@ data = i2c.readBytes(0x40, 0x00, 1)
 data1 = i2c.readBytes(0x40, 0x00, 1)
 
 # Convert the data
-humidity = (125.0 * (data0 * 256.0 + data1) / 65536.0) - 6.0
+humidity = (125.0 * (data0[0] * 256.0 + data1[0]) / 65536.0) - 6.0
 
 # SI7006_A20 address, 0x40(64) 
 #		0xF3(243)	Select temperature NO HOLD MASTER mode
@@ -36,7 +36,7 @@ time.sleep(0.5)
 data = i2c.readBytes(0x40, 0x00, 1)
 data1 = i2c.readBytes(0x40, 0x00, 1)
 # Convert the data
-cTemp = (175.72 * (data0 * 256.0 + data1) / 65536.0) - 46.85
+cTemp = (175.72 * (data0[0] * 256.0 + data1[0]) / 65536.0) - 46.85
 fTemp = cTemp * 1.8 + 32
 
 # Output data to screen
